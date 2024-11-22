@@ -24,9 +24,9 @@
     @endif
 
     <div class="container mt-5">
-        <h1 class="mb-4">Cipőbolt Szűrő</h1>
+        <h1 class="mb-4">Ruhabolt Szűrő</h1>
 
-        <form method="GET" action="{{ route('products.index') }}">
+        <form method="GET" action="{{ route('products.clothes_index') }}">
             <div class="row">
                 <!-- Ár szűrő -->
                 <div class="col-md-3 mb-3">
@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-primary">Szűrés</button>
-                    <a href="{{ route('products.index') }}" class="btn btn-secondary">Szűrők törlése</a>
+                    <a href="{{ route('products.clothes_index') }}" class="btn btn-secondary">Szűrők törlése</a>
                 </div>
             </div>
         </form>
